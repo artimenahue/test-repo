@@ -88,7 +88,7 @@ body {
 
   footer {
     @include MarginLR(15vh, 15vh);
-    padding: 30px;
+    padding-top: 50px;
     .btn_success--adjust {
       margin: 10px;
     }

@@ -129,7 +129,7 @@ body .card:hover img {
 body footer {
   margin-left: 15vh;
   margin-right: 15vh;
-  padding: 30px;
+  padding-top: 50px;
 }
 
 body footer .btn_success--adjust {
