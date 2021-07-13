@@ -1,0 +1,22 @@
+.carousel_caja--margen {
+  @include MarginLR(15vh, 15vh);
+}
+.carousel-inner {
+  box-shadow: 20px black;
+}
+.carousel-item {
+  background-image: url("../images/slide (1).jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 40vh;
+}
+
+.carousel_item--bg-img2 {
+  background-image: url("../images/slide (2).jpg");
+}
+.carousel_item--bg-img3 {
+  background-image: url("../images/slide (3).jpg");
+}
+.carousel_item--bg-img4 {
+  background-image: url("../images/slide (4).jpg");
+}

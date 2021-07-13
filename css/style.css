@@ -1,0 +1,249 @@
+/*VARIABLES*/
+/*----Mixing---*/
+.carousel_caja--margen {
+  margin-left: 15vh;
+  margin-right: 15vh;
+}
+
+.carousel-inner {
+  -webkit-box-shadow: 20px black;
+          box-shadow: 20px black;
+}
+
+.carousel-item {
+  background-image: url("../images/slide (1).jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 40vh;
+}
+
+.carousel_item--bg-img2 {
+  background-image: url("../images/slide (2).jpg");
+}
+
+.carousel_item--bg-img3 {
+  background-image: url("../images/slide (3).jpg");
+}
+
+.carousel_item--bg-img4 {
+  background-image: url("../images/slide (4).jpg");
+}
+
+body {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  font-family: sans-serif;
+  /*Contenedor*/
+  /*ERROR 404*/
+}
+
+body h2 {
+  padding: 20px 0 0 0;
+}
+
+body h3 {
+  color: black !important;
+  font-size: 24px;
+  margin: 20px 0 0 20px;
+  z-index: 1;
+}
+
+body p {
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  margin: 0 0 20px 20px;
+  letter-spacing: 0.5px;
+  z-index: 1;
+}
+
+body .navbar {
+  background-color: transparent !important;
+}
+
+body .navbar .navbar_caja--margen {
+  margin-left: 15vh;
+  margin-right: 15vh;
+}
+
+body .navbar .navbar_caja--margen .reounded_Logo--ajuste {
+  width: 15em;
+  height: auto;
+}
+
+body .bloque_contenedor {
+  margin-left: 15vh;
+  margin-right: 15vh;
+}
+
+body .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(390px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+  grid-gap: 2rem;
+  padding-top: 3rem;
+}
+
+body .card {
+  height: 215px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  -webkit-transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+body .img_cards {
+  position: absolute;
+  top: 0;
+  height: 110%;
+  width: 100%;
+  z-index: 0;
+  -webkit-transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  opacity: 0.8;
+}
+
+body .card:hover {
+  -webkit-transform: scale(1.035, 1.035);
+          transform: scale(1.035, 1.035);
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+body .card:hover img {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  opacity: 1;
+}
+
+body footer {
+  margin-left: 15vh;
+  margin-right: 15vh;
+  padding: 30px;
+}
+
+body footer .btn_success--adjust {
+  margin: 10px;
+}
+
+body .error-wall {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+}
+
+body .error-wall .load-error {
+  background-color: #f3785e;
+}
+
+body .error-wall .matinence {
+  background-color: #a473b1;
+}
+
+body .error-wall .missing-page {
+  background-color: #00bbc6;
+}
+
+body .error-wall .error-container {
+  display: block;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+}
+
+body .error_titulo {
+  color: black;
+  font-size: 130px;
+  margin: 0;
+}
+
+@media (max-width: 850px) {
+  body .error_titulo {
+    font-size: 65px;
+  }
+}
+
+body .error_text3 {
+  color: #464444;
+  font-size: 34px;
+  margin: 0;
+}
+
+@media (max-width: 850px) {
+  body .error_text3 {
+    font-size: 25px;
+  }
+}
+
+body .error_text4 {
+  margin: 0;
+  color: black;
+  font-size: 40px;
+}
+
+@media (max-width: 850px) {
+  body .error_text4 {
+    font-size: 35px;
+  }
+}
+
+body .error_parrafo {
+  font-size: 15px;
+}
+
+body .error_parrafo:first-of-type {
+  color: #464444;
+  font-weight: lighter;
+}
+
+body .error_parrafo:nth-of-type(2) {
+  color: #464444;
+  font-weight: bold;
+}
+
+body .error_parrafo.type-white {
+  color: #fff;
+}
+
+body .error_parrafo .error_home {
+  text-decoration: none;
+}
+
+@media (max-width: 850px) {
+  body .error_parrafo {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 390px) {
+  body .error_parrafo {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  body footer {
+    margin-left: 10vh;
+    margin-right: 10vh;
+  }
+  body .reounded_Logo--ajuste {
+    width: 8em;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
